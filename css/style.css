@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,500&display=swap');
+
+
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1em;
+    margin: 0;
+    background-color: #e7d427;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #FFEB3B;
+    padding: 20px 10px;
+}
+
+.wrap-logo {
+    display: flex;
+    align-items: center;
+
+}
+
+header a {
+    color: #212121;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header a:hover {
+    background-color: #FBC02D;
+    color: #212121;
+}
+
+.wrap-logo :active {
+    background-color: #FBC02D;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+
+.main {
+    text-align: center;
+    margin: 15px;
+}
+
+.contacts__photo img {
+    border-radius: 50%;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid grey;
+    padding: 8px;
+    margin-bottom: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+
+}
+
+.contacts img {
+    width: 150px;
+    height: auto;
+}
+
+.forMy {
+    border: 2px solid grey;
+    padding: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.technologyStack__icons {
+    display: flex;
+    justify-content: center;
+
+}
+
+.technologyStack__icons img {
+    width: calc(1em * 5);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+    margin: 8px;
+    align-items: flex-end;
+}
+.footer__contacts a{
+    text-decoration: none;
+    color: #212121;
+}
+.hr{
+    margin: 8px;
+}
+
+.contacts__title{
+    text-align: center;
+}
+.contacts__block{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    border: 2px solid grey;
+    padding: 8px;
+    margin-bottom: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 8px;
+}
+.contacts__arrow{
+    display: flex;
+    justify-content: center;
+    outline: none;
+}
+.contacts__adress a{
+    text-decoration: none;
+    color: #212121;
+}
