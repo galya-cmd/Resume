@@ -76,6 +76,10 @@ nav {
 
 
 }
+.contacts__name a{
+    text-decoration: none;
+    color:  #212121;
+}
 
 .contacts img {
     width: 150px;
